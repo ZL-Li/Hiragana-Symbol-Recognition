@@ -10,7 +10,7 @@ The paper describing the dataset is available [here](https://arxiv.org/pdf/1812.
 Significant changes occurred to the language when Japan reformed their education system in 1868, and the majority of Japanese today cannot read texts published over 150 years ago. This paper presents a dataset of handwritten, labeled examples of this old-style script (Kuzushiji).
 Along with this dataset, however, they also provide a much simpler one, containing 10 Hiragana characters with 7000 samples per class. This is the dataset we are using.
 
-Progressively more complex (and accurate) models are made.
+Progressively more complex and accurate models are made.
 
 ### NetLin
 
