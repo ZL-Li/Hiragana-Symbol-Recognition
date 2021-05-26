@@ -25,6 +25,8 @@ It will download the dataset if running for the first time.
 
 It will show the final accuracy and confusion matrix after running. The final accuracy is approximately 70%.
 
+![1.png](Images/1.png)
+
 Note that the rows of the confusion matrix indicate the target character,
 while the columns indicate the one chosen by the network.
 (0="o", 1="ki", 2="su", 3="tsu", 4="na", 5="ha", 6="ma", 7="ya", 8="re", 9="wo").
@@ -42,6 +44,8 @@ python3 kuzu_main.py --net full
 
 The final accuracy can achieve 85%, which is better than the first model.
 
+![2.png](Images/2.png)
+
 ### NetConv
 
 `NetConv` is a convolutional network, with two convolutional layers plus one fully connected layer, all using relu activation function, followed by the output layer.
@@ -53,3 +57,5 @@ python3 kuzu_main.py --net conv
 ```
 
 The network can achieve 94% accuracy on the test set, which is the best of three.
+
+![3.png](Images/3.png)
