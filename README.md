@@ -42,7 +42,7 @@ Run the code by typing:
 python3 kuzu_main.py --net full
 ```
 
-The final accuracy can achieve 85%, which is better than the first model.
+The final accuracy can achieve 84%, which is better than the first model.
 
 ![2.png](Images/2.png)
 
